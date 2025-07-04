@@ -1,0 +1,8 @@
+{
+  "name": "Jenkins Dev",
+  "build": {
+    "dockerfile": "../Dockerfile"
+  },
+  "forwardPorts": [8080],
+  "postCreateCommand": "echo Jenkins is ready at port 8080"
+}
